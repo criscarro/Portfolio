@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cristian Carro — Portfolio</title>
+  <meta name="description" content="Portfolio de Cristian Carro, estudiante de Analista Programador." />
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-decor" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="nav-brand" href="index.html">CC</a>
+    <nav class="nav-links">
+      <a href="about.html">Sobre mí</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema" title="Cambiar tema">
+      <span id="theme-icon">🌙</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero hero-simple">
+      <p class="eyebrow">Hola, soy</p>
+      <h1>Cristian Carro</h1>
+      <p class="role">Estudiante de Analista Programador · 3er semestre</p>
+    </section>
+
+    <section class="section landing-grid-section">
+      <div class="landing-grid">
+        <a class="square-card" href="about.html">
+          <span class="square-card-icon">🙋</span>
+          <h2>Sobre mí</h2>
+          <p>Quién soy y qué estudio.</p>
+        </a>
+        <a class="square-card" href="proyectos.html">
+          <span class="square-card-icon">💻</span>
+          <h2>Proyectos</h2>
+          <p>Lo que vengo construyendo.</p>
+        </a>
+        <a class="square-card" href="contacto.html">
+          <span class="square-card-icon">✉️</span>
+          <h2>Contacto</h2>
+          <p>Cómo escribirme.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Cristian Carro. Hecho con HTML, CSS y JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

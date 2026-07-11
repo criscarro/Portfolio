@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyectos — Cristian Carro</title>
+  <meta name="description" content="Proyectos de Cristian Carro." />
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-decor" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="nav-brand" href="index.html">CC</a>
+    <nav class="nav-links">
+      <a href="about.html">Sobre mí</a>
+      <a href="proyectos.html" class="active">Proyectos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema" title="Cambiar tema">
+      <span id="theme-icon">🌙</span>
+    </button>
+  </header>
+
+  <main>
+    <a class="back-link" href="index.html">← Inicio</a>
+
+    <section class="section">
+      <h1 class="section-title">Proyectos</h1>
+      <div class="projects-grid">
+
+        <article class="card">
+          <div class="card-top">
+            <h3>FaltaUno</h3>
+            <span class="tag">Next.js</span>
+          </div>
+          <p>
+            Aplicación web de gestión deportiva casual. Permite publicar
+            partidos, encontrar jugadores disponibles y armar solicitudes
+            de participación.
+          </p>
+          <p class="stack">Next.js · Prisma · SQLite · CSS Modules</p>
+          <a class="card-link" href="https://github.com/criscarro/FutTeams" target="_blank" rel="noopener noreferrer">Ver repo →</a>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h3>Level-Up Accessibility</h3>
+            <span class="tag">Web</span>
+          </div>
+          <p>
+            Proyecto de facultad enfocado en accesibilidad web: una
+            interfaz construida con HTML, CSS y Bootstrap pensando en
+            buenas prácticas de UX/accesibilidad.
+          </p>
+          <p class="stack">HTML · CSS · JavaScript · Bootstrap</p>
+          <a class="card-link" href="https://github.com/criscarro/Obligatorio-uya" target="_blank" rel="noopener noreferrer">Ver repo →</a>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h3>ApiTurnos</h3>
+            <span class="tag">.NET</span>
+          </div>
+          <p>
+            API para gestión de turnos, desarrollada como práctico de
+            clase. Enfocada en el diseño de endpoints y la lógica de
+            backend.
+          </p>
+          <p class="stack">C# · .NET</p>
+          <a class="card-link" href="https://github.com/criscarro/ApiTurnosClase27" target="_blank" rel="noopener noreferrer">Ver repo →</a>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h3>Constructora Carro Ravel</h3>
+            <span class="tag">Bases de Datos</span>
+          </div>
+          <p>
+            Obligatorio de Bases de Datos 2: modelado y diseño de una base
+            de datos relacional para gestionar los procesos de una
+            constructora.
+          </p>
+          <p class="stack">SQL · Modelado de datos</p>
+          <a class="card-link" href="#">Ver detalle →</a>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Cristian Carro. Hecho con HTML, CSS y JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

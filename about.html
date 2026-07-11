@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre mí — Cristian Carro</title>
+  <meta name="description" content="Sobre Cristian Carro, estudiante de Analista Programador." />
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-decor" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="nav-brand" href="index.html">CC</a>
+    <nav class="nav-links">
+      <a href="about.html" class="active">Sobre mí</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema" title="Cambiar tema">
+      <span id="theme-icon">🌙</span>
+    </button>
+  </header>
+
+  <main>
+    <a class="back-link" href="index.html">← Inicio</a>
+
+    <section class="section page-hero">
+      <img class="hero-photo" src="assets/foto-perfil.png" alt="Foto de Cristian Carro" />
+      <div>
+        <h1 class="section-title">Sobre mí</h1>
+        <p class="role">Estudiante de Analista Programador · 3er semestre</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="about-grid">
+        <p class="about-text">
+          Estoy cursando Analista Programador (3er semestre), donde vengo
+          combinando materias de bases de datos, desarrollo web y
+          programación orientada a objetos. Me interesa entender cómo se
+          arma un sistema completo: modelar los datos, exponerlos con una
+          API y construir una interfaz que sea clara de usar. Todavía
+          estoy aprendiendo, así que la mayoría de estos proyectos son
+          prácticos y de facultad, pero cada uno me sirvió para sumar algo
+          nuevo al stack.
+        </p>
+        <ul class="skills">
+          <li>JavaScript / TypeScript</li>
+          <li>Next.js / React</li>
+          <li>Bases de datos relacionales (SQL, Prisma)</li>
+          <li>HTML, CSS, Bootstrap</li>
+          <li>.NET / C#</li>
+          <li>Git y GitHub</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Cristian Carro. Hecho con HTML, CSS y JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
